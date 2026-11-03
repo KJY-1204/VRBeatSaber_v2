@@ -1,0 +1,7 @@
+{
+  "notes": [
+    { "time": 1.0, "type": 0, "position": 0, "direction": 0 },
+    { "time": 1.5, "type": 1, "position": 2, "direction": 1 },
+    { "time": 2.0, "type": 0, "position": 1, "direction": 2 }
+  ]
+}

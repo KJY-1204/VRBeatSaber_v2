@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"D:\\\\work\\\\VRBeatSaber_v2\" -Recurse -Filter \"*.cs\")",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(Sort-Object)",
+      "Bash(powershell -Command \"Get-ChildItem -Path 'D:\\\\work\\\\VRBeatSaber_v2' -Recurse -Filter '*.cs' | Select-Object -ExpandProperty FullName | Sort-Object\")",
+      "Bash(gh auth *)",
+      "Bash(git config *)",
+      "Bash(git --version)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
